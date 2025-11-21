@@ -1,3 +1,4 @@
+
 public class User {
     private String name;
     private int age;
@@ -28,6 +29,7 @@ public class User {
             this.city = city;
             return this;
         }
+
 
         public User build() {
             return new User(this);

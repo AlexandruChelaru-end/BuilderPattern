@@ -29,6 +29,7 @@ class WoodenHouseBuilder implements HouseBuilder {
     public House getResult() { return house; }
 }
 
+
 class Director {
     private HouseBuilder builder;
 
